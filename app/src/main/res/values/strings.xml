@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="t_m">Tìm</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="recommended">Gợi ý</string>
+    <string name="popular_destination">Địa điểm phổ biến</string>
+    <string name="address_city">Địa điểm, thành phố...</string>
+</resources>
