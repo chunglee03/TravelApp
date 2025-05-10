@@ -52,7 +52,8 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="@+id/imageView"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="18dp" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:ignore="MissingConstraints" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -113,6 +114,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewPager2"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
                     android:paddingStart="24dp"
@@ -126,6 +128,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
                 android:layout_height="match_parent">
 
                 <androidx.recyclerview.widget.RecyclerView
@@ -133,8 +136,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:clipToPadding="false"
-                    android:paddingStart="16dp"
-                    android:paddingEnd="16dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -185,8 +188,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:clipToPadding="false"
-                    android:paddingStart="16dp"
-                    android:paddingEnd="16dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -238,8 +241,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clipToPadding="false"
-                    android:paddingStart="16dp"
-                    android:paddingEnd="16dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
